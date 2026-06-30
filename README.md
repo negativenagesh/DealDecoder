@@ -1,9 +1,10 @@
 # DealDecoder
 
 [![GitHub stars](https://img.shields.io/github/stars/negativenagesh/DealDecoder?style=social)](https://github.com/negativenagesh/DealDecoder/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/negativenagesh/DealDecoder?style=social)](https://github.com/negativenagesh/DealDecoder/network/members)
 [![Frontend (Vercel)](https://img.shields.io/badge/Vercel-Live-black?style=social&logo=vercel)](https://deal-decoder-two.vercel.app)
 [![Backend (Render)](https://img.shields.io/badge/Render-Live-black?style=social&logo=render)](https://dealdecoder-backend.onrender.com)
+
+![DealDecoder Demo](demo/dealdecoder.gif)
 
 DealDecoder is a customer-facing cart pricing engine that automatically applies and stacks discount rules. The architecture consists of a React frontend and a FastAPI backend designed for complex NLP and Vision tasks using Gemini and NVIDIA NIM.
 

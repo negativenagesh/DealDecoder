@@ -13,9 +13,7 @@ DealDecoder is a customer-facing cart pricing engine that automatically applies 
 ## Live Deployment
 
 - **Frontend (Vercel)**: [https://deal-decoder-two.vercel.app](https://deal-decoder-two.vercel.app)
-- **Backend (Render)**: [https://dealdecoder-backend.onrender.com](https://dealdecoder-backend.onrender.com)
-
-> **Note:** The backend is currently deployed on Render's free tier. If the server receives no traffic for 15 minutes, it spins down. If you visit the frontend and requests are hanging or taking 50+ seconds, the backend is experiencing a "cold start" and is waking up. Please be patient!
+- **Backend (Render)**: [https://dealdecoder-backend.onrender.com](https://dealdecoder-backend.onrender.com) - The backend is currently deployed on Render's free tier. If the server receives no traffic for 15 minutes, it spins down. If you visit the frontend and requests are hanging or taking 50+ seconds, the backend is experiencing a "cold start" and is waking up. Please be patient!
 
 ## Architecture
 

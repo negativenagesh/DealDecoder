@@ -103,16 +103,20 @@ def apply_discounts(item: CartItem, rules: List[DiscountRule]) -> DiscountResult
     reasoning_parts = []
     
     if winner:
-        price -= calculate_discount_amount(price, winner)
+        discount = calculate_discount_amount(price, winner)
+        discount = min(discount, price)
+        price -= discount
         applied_rules.append(winner.ruleId)
         reasoning_parts.append(rule_to_reasoning(winner))
         
     for rule in stackable:
-        price -= calculate_discount_amount(price, rule)
+        discount = calculate_discount_amount(price, rule)
+        discount = min(discount, price)
+        price -= discount
         applied_rules.append(rule.ruleId)
         reasoning_parts.append(rule_to_reasoning(rule))
         
-    final_price = round(price)
+    final_price = max(0.0, round(price))
     
     return DiscountResult(
         itemId=item.itemId,
@@ -147,12 +151,13 @@ def process_cart(cart_items: List[CartItem], rules: List[DiscountRule]) -> Calcu
         # Check condition
         if rule.min_cart_value is None or current_cart_total >= rule.min_cart_value:
             savings = calculate_discount_amount(current_cart_total, rule)
+            savings = min(savings, current_cart_total)
             if savings > best_cart_savings:
                 best_cart_savings = savings
                 best_cart_rule = rule
                 
     if best_cart_rule:
-        current_cart_total -= best_cart_savings
+        current_cart_total = max(0.0, current_cart_total - best_cart_savings)
         
         reasoning = ""
         if best_cart_rule.reasoning:

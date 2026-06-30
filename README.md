@@ -4,11 +4,11 @@
 [![Frontend (Vercel)](https://img.shields.io/badge/Vercel-Live-black?style=social&logo=vercel)](https://deal-decoder-two.vercel.app)
 [![Backend (Render)](https://img.shields.io/badge/Render-Live-black?style=social&logo=render)](https://dealdecoder-backend.onrender.com)
 
-> **Note:** The demo GIF below is loading, please wait a moment to watch it. You can also view it directly at [`demo/dealdecoder.gif`](demo/dealdecoder.gif).
+Demo GIF below is loading, please wait a moment to watch it. You can also view it directly at [`demo/dealdecoder.gif`](demo/dealdecoder.gif).
 
 ![DealDecoder Demo](demo/dealdecoder.gif)
 
-DealDecoder is a customer-facing cart pricing engine that automatically applies and stacks discount rules. The architecture consists of a React frontend and a FastAPI backend designed for complex NLP and Vision tasks using Gemini and NVIDIA NIM.
+DealDecoder is a customer-facing cart pricing engine that automatically applies and stacks discount rules.
 
 ## Live Deployment
 

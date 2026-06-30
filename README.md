@@ -25,7 +25,7 @@ DealDecoder is a customer-facing cart pricing engine that automatically applies 
    - `gemini-2.5-flash`: Fast, high-accuracy model used for PDF cart extraction (Vision) and NL rule parsing.
    - `stepfun-ai/step-3.7-flash`: Advanced reasoning model streamed via SSE for rule parsing validation.
 
-## Local Execution (Under 3 Steps)
+## Local Execution
 
 The fastest and most reliable way to execute the system locally is via Docker Compose.
 

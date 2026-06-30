@@ -1,7 +1,7 @@
 # DealDecoder
 
-[![Frontend (Vercel)](https://img.shields.io/badge/Vercel-Frontend-Live-black?style=social&logo=vercel)](https://deal-decoder-two.vercel.app)
-[![Backend (Render)](https://img.shields.io/badge/Render-Backend-Live-black?style=social&logo=render)](https://dealdecoder-backend.onrender.com)
+[![Frontend (Vercel)](https://img.shields.io/badge/Vercel-Live-black?style=social&logo=vercel)](https://deal-decoder-two.vercel.app)
+[![Backend (Render)](https://img.shields.io/badge/Render-Live-black?style=social&logo=render)](https://dealdecoder-backend.onrender.com)
 
 Demo GIF below is loading, please wait a moment to watch it. You can also view it directly at [`demo/dealdecoder.gif`](demo/dealdecoder.gif).
 
